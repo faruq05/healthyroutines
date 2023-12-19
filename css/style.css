@@ -748,6 +748,24 @@ p {
     margin-right: 20px;
 }
 
+.search{
+    align-items: center;
+}
+
+.search i{
+    margin-right: -20px;
+    z-index: 10;
+}
+
+.search input{
+    padding: 5px 30px;
+    border: 1px solid transparent;
+}
+
+.search:hover input{
+    border: 1px solid var(--cs-black);
+}
+
 .pr_rev p {
     font-weight: 400 !important;
     border-bottom: 2px solid var(--cs-black);
@@ -760,6 +778,7 @@ p {
 .tes {
     border-right: 1px solid #000;
     padding-right: 50px;
+    width: 20%;
 }
 
 .avatar {
@@ -793,6 +812,12 @@ p {
     color: var(--cs-black);
 }
 
+.tes h4 {
+    color: #5a5a5a;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
 .tes_box {
     padding-left: 30px;
     width: 80%;
@@ -801,6 +826,7 @@ p {
 .tes_star {}
 
 .tes_star i {}
+
 
 .tes_box h3 {
     font-size: 16px;
@@ -813,10 +839,17 @@ p {
     font-size: 16px;
 }
 
+.like p {
+    color: #5a5a5a;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
 .tes_link {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .tes_left {
@@ -841,6 +874,9 @@ p {
     margin: 40px 0px;
 }
 
+.star_un{
+    color: #d8d8d8;
+}
 /* footer  */
 .footer {
     background-color: var(--cs-blue);

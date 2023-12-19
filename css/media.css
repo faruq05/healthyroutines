@@ -1,3 +1,78 @@
+@media(max-width:991px) {
+    .hero {
+        padding: 20px 15px;
+    }
+
+    .material_list {
+        padding: 0px;
+        padding: 0px 10px 0 10px;
+    }
+
+    .rev_text img {
+        width: 25%;
+
+    }
+
+    .routine h4 {
+        width: 85%;
+        text-align: center;
+    }
+
+    .btn-gen {
+        font-size: 16px;
+    }
+
+    .package {
+        width: 100%;
+    }
+
+    .pkg_imggrad img {
+        width: 100%;
+    }
+
+    .pkg_img {
+        padding: 20px;
+    }
+
+    .pkg_list {
+        padding: 20px;
+    }
+
+    .deals {
+        height: 580px;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .deal_price h3 {
+        font-size: 40px !important;
+    }
+
+    .deals h4 {
+        font-size: 14px;
+    }
+
+    .client_review {
+
+        padding: 10px 30px;
+    }
+
+    .client_image img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .tes {
+        width: 30%;
+        padding-right: 10px;
+    }
+
+    .tes_box {
+        padding-left: 10px;
+    }
+
+}
+
 @media(max-width:767px) {
     .cp-60 {
         padding: 30px 15px;
@@ -127,7 +202,7 @@
         padding: 20px;
     }
 
-    .client_details{
+    .client_details {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -136,15 +211,15 @@
         margin: 10px 0px;
     }
 
-    .client_image img{
+    .client_image img {
         width: 100%;
     }
 
-    .ef_img{
+    .ef_img {
         text-align: center;
     }
 
-    .effect_box{
+    .effect_box {
         margin-bottom: 20px;
     }
 
@@ -152,11 +227,11 @@
         padding: 30px 10px;
     }
 
-    .hv_tl1 li h2{
+    .hv_tl1 li h2 {
         font-size: 20px;
     }
 
-    .harv_title li p{
+    .harv_title li p {
         font-size: 14px;
     }
 
@@ -171,6 +246,7 @@
     .tes {
         padding: 0;
         border: none;
+        width: auto;
     }
 
     .testimonial_box {
@@ -181,17 +257,17 @@
         padding: 0;
         width: auto;
     }
-    
+
 
     .tes_link {
         flex-direction: column;
     }
 
-    .review_buton{
+    .review_buton {
         margin-top: 10px;
     }
 
-    .pr_rev{
+    .pr_rev {
         margin-top: 10px;
     }
 
